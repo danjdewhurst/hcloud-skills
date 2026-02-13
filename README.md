@@ -142,6 +142,12 @@ The skills are markdown files — no build step required.
 
 ---
 
+## Acknowledgements
+
+The bundled CLI reference documentation in `docs/` is derived from the [hcloud CLI](https://github.com/hetznercloud/cli) project by [Hetzner Cloud GmbH](https://www.hetzner.com/cloud), used under the [MIT License](docs/LICENSE).
+
+---
+
 ## License
 
 [MIT](LICENSE) &copy; [Daniel Dewhurst](https://github.com/danjdewhurst)

@@ -1,0 +1,33 @@
+## hcloud server enable-backup
+
+Enable backup for a server
+
+```
+hcloud server enable-backup <server>
+```
+
+### Options
+
+```
+  -h, --help            help for enable-backup
+      --window string   (deprecated) The time window for the daily backup to run. All times are in UTC. 22-02 means that the backup will be started between 10 PM and 2 AM.
+```
+
+### Options inherited from parent commands
+
+```
+      --config string              Config file path (default "~/.config/hcloud/cli.toml")
+      --context string             Currently active context
+      --debug                      Enable debug output
+      --debug-file string          File to write debug output to
+      --endpoint string            Hetzner Cloud API endpoint (default "https://api.hetzner.cloud/v1")
+      --hetzner-endpoint string    Hetzner API endpoint (default "https://api.hetzner.com/v1")
+      --no-experimental-warnings   If true, experimental warnings are not shown
+      --poll-interval duration     Interval at which to poll information, for example action progress (default 500ms)
+      --quiet                      If true, only print error messages
+```
+
+### SEE ALSO
+
+* [hcloud server](hcloud_server.md)	 - Manage Servers
+

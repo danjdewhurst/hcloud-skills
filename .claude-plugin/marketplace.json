@@ -1,5 +1,6 @@
 {
   "name": "hcloud-skills",
+  "description": "Hetzner Cloud CLI plugin for Claude Code — skills, commands, and safety hooks",
   "owner": {
     "name": "Daniel Dewhurst",
     "url": "https://github.com/danjdewhurst"
@@ -7,7 +8,10 @@
   "plugins": [
     {
       "name": "hcloud",
-      "source": ".",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/danjdewhurst/hcloud-skills.git"
+      },
       "description": "Hetzner Cloud CLI skills, commands, and safety hooks for Claude Code",
       "version": "1.0.0",
       "author": {
